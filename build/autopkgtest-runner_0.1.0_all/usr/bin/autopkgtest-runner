@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from autopkgtest_runner.main import main
+main()
