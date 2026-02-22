@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[o:danielnylander:p:autopkgtest-runner:r:autopkgtest-runner-pot]
+[o:danielnylander:p:autopkgtest-runner:r:autopkgtest_runner]
 file_filter = po/<lang>.po
 source_file = po/autopkgtest-runner.pot
 source_lang = en
