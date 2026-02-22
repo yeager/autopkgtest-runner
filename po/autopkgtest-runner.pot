@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the autopkgtest-runner package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: autopkgtest-runner 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 07:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/autopkgtest_runner/main.py:51 src/autopkgtest_runner/main.py:61
+#: src/autopkgtest_runner/main.py:337
+msgid "Autopkgtest Runner"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:66
+msgid "Open package directory"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:70 src/autopkgtest_runner/main.py:206
+#: src/autopkgtest_runner/main.py:243
+msgid "Run Tests"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:78 src/autopkgtest_runner/main.py:294
+msgid "Settings"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:79
+msgid "Copy Debug Info"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:80
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:81
+msgid "About Autopkgtest Runner"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:105
+msgid "Test Output"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:125
+msgid "Ready"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:140
+msgid "Welcome"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:146
+msgid "Welcome to Autopkgtest Runner"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:147
+msgid ""
+"Run Debian autopkgtests easily.\n"
+"\n"
+"✓ Run autopkgtest on local packages\n"
+"✓ Visual pass/fail results\n"
+"✓ Live test output streaming\n"
+"✓ Test history and comparison\n"
+"✓ Export test reports"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:154
+msgid "Get Started"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:178
+msgid "Select package directory"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:193
+#, python-format
+msgid "Found test control: %s"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:195
+msgid "No debian/tests/control found"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:197
+msgid "No debian/tests directory"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:210
+msgid "Stop"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:231
+msgid "autopkgtest not installed. Install with: sudo apt install autopkgtest\n"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:249
+msgid "All tests passed"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:252
+msgid "Could not run tests"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:255
+#, python-format
+msgid "Tests failed (exit code %(code)d)"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:263
+#, python-format
+msgid "%(time)s — %(status)s"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:297
+msgid "Test Runner"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:298
+msgid "Virtualization"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:318
+msgid "Debug info copied"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:324
+msgid "General"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:326
+msgid "Quit"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:327
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: src/autopkgtest_runner/main.py:344
+msgid ""
+"Run autopkgtests locally without sbuild. Visual test output with pass/fail "
+"indicators."
+msgstr ""

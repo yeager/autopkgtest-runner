@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=autopkgtest-runner
+Comment=GTK4 frontend for autopkgtest Debian test framework
+Exec=autopkgtest-runner
+Icon=applications-other-symbolic
+Terminal=false
+Categories=Development;
