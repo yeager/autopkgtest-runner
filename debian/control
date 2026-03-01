@@ -1,0 +1,21 @@
+Source: autopkgtest-runner
+Section: devel
+Priority: optional
+Maintainer: Daniel Nylander <daniel@danielnylander.se>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               pybuild-plugin-pyproject
+Standards-Version: 4.7.0
+Homepage: https://github.com/yeager/autopkgtest-runner
+Vcs-Git: https://github.com/yeager/autopkgtest-runner.git
+Vcs-Browser: https://github.com/yeager/autopkgtest-runner
+
+Package: autopkgtest-runner
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-gi, gir1.2-gtk-4.0
+Description: GTK4 frontend for autopkgtest Debian test framework
+ autopkgtest-runner provides a graphical GTK4 interface for running
+ Debian autopkgtests. It simplifies the process of executing package
+ tests and reviewing results.
